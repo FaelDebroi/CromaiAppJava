@@ -24,7 +24,5 @@ public class MainActivity extends AppCompatActivity {
         Intent telaGraos = new Intent(this, ShowGraosCafe.class);
         telaGraos.putExtra("Lista", tipoGraos);
         startActivity(telaGraos);
-    }
-
-    ;
+    };
 }
